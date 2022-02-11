@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
 * main - Write a program that prints the alphabet in lowercase.
@@ -11,9 +9,6 @@
 int main(void)
 {
 	char ch;
-	int n;
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
