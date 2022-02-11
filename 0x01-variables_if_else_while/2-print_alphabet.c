@@ -11,13 +11,13 @@
 int main(void)
 {
 	char ch;
-
+	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
+	
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
-		printf("\n");
+	printf("\n");
 
 	return (0);
 }
