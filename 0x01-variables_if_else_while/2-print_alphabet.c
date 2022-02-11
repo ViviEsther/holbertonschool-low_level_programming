@@ -1,9 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
-*main - Write a program that prints the alphabet in lowercase.
+* main - Write a program that prints the alphabet in lowercase.
 *
-*Return: Always 0
+* Return: Always 0
 */
 
 int main(void)
@@ -15,7 +17,7 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
-		printf("\n")
+		printf("\n");
 
 	return (0);
 }
