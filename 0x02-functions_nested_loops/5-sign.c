@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
 * print_sign - Write a function that checks for lowercase character
