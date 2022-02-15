@@ -3,7 +3,8 @@
 
 /**
 *_abs - Write a function that computes the absolute value of an integer
-*
+*@n: Input to calculate its abs
+*Return: abs
 */
 
 int _abs(int n)
