@@ -7,5 +7,4 @@ void positive_or_negative(int i);
 void largest_number(a, b, c);
 void print_remaining_days(month, day, year);
 
-
 #endif /* MAIN_H */
