@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* main - check the code
+* _isdigit - function that checks for a digit
 * @c: Is a digit
 * Return: Always 0.
 */
