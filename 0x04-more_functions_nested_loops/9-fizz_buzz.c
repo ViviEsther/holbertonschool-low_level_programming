@@ -2,8 +2,10 @@
 #include "main.h"
 
 /**
-* main - FuzzBuzz test
-* Return: Always 0
+* main - entry point
+* FizzBuzz test
+*
+* Return: always 0
 */
 
 int main(void)
@@ -12,7 +14,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3) == 0 && (i % 5) ==0)
+		if ((i % 3) == 0 && (i % 5) == 0)
 			printf("FizzBuzz");
 		else if (i % 3 == 0)
 			printf("Fizz");
