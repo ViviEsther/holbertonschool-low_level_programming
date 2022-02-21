@@ -1,25 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* main - function that takes a pointer and updates the value
+* reset_to_98 - function that takes a pointer and updates the value
 * it oints to
-* Return: Always 0.
+* @n: parameter that updates the value
 */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *p;
-
-	n = 402;
-	p = &n;
-	{
-		printf("n = %d\n", n);
-	}
-	*p = 402;
-	{
-		printf("n=%d\n", n);
-	}
-	return (0);
+	*n = 98;
 }
