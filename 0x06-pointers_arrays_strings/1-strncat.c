@@ -5,6 +5,7 @@
 *Returnings a pointer to the resulting string
 *@dest: input parameter
 *@src: input parameter
+*@n: Most bytes of src to concatenate
 *Return: s
 */
 
