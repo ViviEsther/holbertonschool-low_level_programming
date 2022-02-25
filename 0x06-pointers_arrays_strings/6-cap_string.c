@@ -9,7 +9,7 @@
 char *cap_string(char *s)
 {
 	char *str = s;
-	char del[] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 125, 32, 10, 9};
+	char del[14] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 125, 32, 10, 9};
 	int count;
 
 	while (*s)
