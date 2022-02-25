@@ -2,7 +2,7 @@
 
 /**
 *cap_string - Function that capitalizes all words of a string
-*@s: string of letteres
+*@s: string of letters
 *Return: s
 */
 
@@ -19,7 +19,7 @@ char *cap_string(char *s)
 		{
 			if (*s == *(del + count))
 			{
-				if (*(s + 1) >= 'a' && *(s + 1) <= 'z')
+				if (*(s + 1) >= 97 && *(s + 1) <= 122)
 					*(s + 1) = *(s + 1) - 32;
 			}
 			count++;
